@@ -1,0 +1,26 @@
+{
+  "model_architecture": "DistilBERT & Calibrated NLP Pipeline",
+  "taxonomy_classes": {
+    "0": "Normal",
+    "1": "Fake Urgency",
+    "2": "Scarcity",
+    "3": "Hidden Cost",
+    "4": "Trick Question",
+    "5": "Confirmshaming",
+    "6": "Sneak Into Basket",
+    "7": "Forced Continuity",
+    "8": "Disguised Advertisement",
+    "9": "Social Proof Manipulation",
+    "10": "Preselected Option",
+    "11": "Misleading Information"
+  },
+  "input_features": "Sublinear TF-IDF (1-3 ngrams) & Embeddings",
+  "weights": {
+    "ml_weight": 0.6,
+    "rule_weight": 0.4
+  },
+  "thresholds": {
+    "high": 0.8,
+    "medium": 0.6
+  }
+}

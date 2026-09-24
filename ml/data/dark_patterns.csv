@@ -1,0 +1,119 @@
+text,label,pattern_type,source
+"Product price: ₹1,299",0,Normal,Legitimate E-Commerce
+Delivery available tomorrow with standard shipping.,0,Normal,Legitimate E-Commerce
+"Choose your preferred payment method: UPI, Card, NetBanking.",0,Normal,Legitimate E-Commerce
+"100% cotton fabric, machine wash cold with similar colors.",0,Normal,Legitimate E-Commerce
+Free returns within 30 days of receipt in original packaging.,0,Normal,Legitimate E-Commerce
+"Package includes 1 laptop charger, 1 USB-C cable, and user manual.",0,Normal,Legitimate E-Commerce
+"Dimensions: 15.6 inch display, weight: 1.8 kg.",0,Normal,Legitimate E-Commerce
+Customer reviews: 4.3 out of 5 stars based on 452 ratings.,0,Normal,Legitimate E-Commerce
+"Select shoe size: UK 7, UK 8, UK 9, UK 10.",0,Normal,Legitimate E-Commerce
+Eligible for standard manufacturer warranty of 1 year.,0,Normal,Legitimate E-Commerce
+"Subtotal: ₹2,499. Taxes calculated at checkout according to local law.",0,Normal,Legitimate E-Commerce
+Add gift message to recipient at no additional cost.,0,Normal,Legitimate E-Commerce
+Secure 256-bit SSL encrypted checkout.,0,Normal,Legitimate E-Commerce
+Standard ground delivery takes 3-5 business days.,0,Normal,Legitimate E-Commerce
+In stock and ready to ship from our regional warehouse.,0,Normal,Legitimate E-Commerce
+"Available in 3 color options: Midnight Black, Pearl White, Navy Blue.",0,Normal,Legitimate E-Commerce
+Battery life up to 12 hours on a single charge.,0,Normal,Legitimate E-Commerce
+Questions? Read our FAQ or contact customer support.,0,Normal,Legitimate E-Commerce
+Compatible with iOS and Android devices via Bluetooth 5.2.,0,Normal,Legitimate E-Commerce
+Store pickup available at your nearest branch.,0,Normal,Legitimate E-Commerce
+Product code: SKU-894125.,0,Normal,Legitimate E-Commerce
+All prices are inclusive of applicable GST.,0,Normal,Legitimate E-Commerce
+Add to wishlist to save for later viewing.,0,Normal,Legitimate E-Commerce
+Order confirmed! Tracking details sent to your registered email.,0,Normal,Legitimate E-Commerce
+Check delivery estimate for your pincode.,0,Normal,Legitimate E-Commerce
+Hurry! Sale ends in 05:00 minutes!,1,Fake Urgency,Princeton Study
+Only 02:45 minutes left before your cart is cleared!,1,Fake Urgency,Princeton Study
+Offer expires in 10 minutes. Complete order now!,1,Fake Urgency,FTC Guidelines
+Deal ends in 00:04:12!,1,Fake Urgency,Princeton Study
+Flash sale! Prices go up in 30 minutes!,1,Fake Urgency,Synthetic E-Commerce
+Order within 15 mins to lock in this special price!,1,Fake Urgency,E-Commerce Corpus
+Clock is ticking! 03:22 remaining to claim discount!,1,Fake Urgency,Princeton Study
+Hurry! Price increases after timer reaches zero.,1,Fake Urgency,FTC Guidelines
+Limited time deal: expires in 08:30!,1,Fake Urgency,Synthetic E-Commerce
+Your reserved discount expires in 01:59!,1,Fake Urgency,Princeton Study
+Final countdown! Offer closes in 12 minutes!,1,Fake Urgency,Synthetic E-Commerce
+Only 1 left in stock - order soon!,2,Scarcity,Princeton Study
+Almost sold out! Only 2 items remaining in warehouse.,2,Scarcity,Princeton Study
+Only 3 items left at this discounted promotional price!,2,Scarcity,E-Commerce Corpus
+High demand! Only 1 room left for your chosen dates.,2,Scarcity,Booking Deceptive Patterns
+"Hurry, only 2 tickets left at this price level!",2,Scarcity,Synthetic E-Commerce
+Few items remaining in stock - grab yours now!,2,Scarcity,Princeton Study
+Stock alert: Just 4 units left in inventory!,2,Scarcity,Synthetic E-Commerce
+Only 1 piece remaining in this size and color.,2,Scarcity,E-Commerce Corpus
+Low inventory warning: 2 units left!,2,Scarcity,FTC Guidelines
+Mandatory order processing fee of ₹149 added at final checkout,3,Hidden Cost,FTC Guidelines
+Convenience handling charge ₹199 excluded from display price,3,Hidden Cost,Princeton Study
+Platform maintenance fee ₹75 applied to transaction,3,Hidden Cost,Synthetic E-Commerce
+Mandatory cleaning and service charge ₹450 disclosed at payment step,3,Hidden Cost,Booking Deceptive Patterns
+Luggage and bag handling surcharge not shown on flight selection,3,Hidden Cost,FTC Guidelines
+Delivery handling fee of ₹99 automatically appended to bill,3,Hidden Cost,Synthetic E-Commerce
+Mandatory administration surcharge calculated during payment,3,Hidden Cost,Princeton Study
+Discreet payment gateway surcharge added to total invoice,3,Hidden Cost,FTC Guidelines
+Packaging and handling fee tacked onto final payment summary,3,Hidden Cost,Synthetic E-Commerce
+Uncheck this box if you do not wish to opt out of paid membership,4,Trick Question,Princeton Study
+Check here if you do not want us to not share your details,4,Trick Question,FTC Guidelines
+Leave unticked to decline our premium paid warranty coverage,4,Trick Question,Synthetic E-Commerce
+Do not check this box if you want to refuse special paid add-ons,4,Trick Question,Princeton Study
+Please uncheck if you would prefer not paying for extra express handling,4,Trick Question,Synthetic E-Commerce
+Tick here if you wish to opt out of not receiving third party promotions,4,Trick Question,FTC Guidelines
+Uncheck to confirm you do not refuse our optional service fee,4,Trick Question,Princeton Study
+Leave blank if you do not object to automatic recurring renewal,4,Trick Question,FTC Guidelines
+"No thanks, I hate saving money and prefer paying full price",5,Confirmshaming,Princeton Study
+"No, I don't care about my family's safety and well-being",5,Confirmshaming,FTC Guidelines
+"No thanks, I like missing out on exclusive deals and discounts",5,Confirmshaming,Synthetic E-Commerce
+I would rather pay full price than get 20% off today,5,Confirmshaming,Princeton Study
+"No, I prefer wasting my hard earned money",5,Confirmshaming,Synthetic E-Commerce
+"No thanks, I am not interested in smart financial savings",5,Confirmshaming,FTC Guidelines
+I decline because I do not care about quality products,5,Confirmshaming,Princeton Study
+"No thanks, I hate free gifts and bonuses",5,Confirmshaming,Synthetic E-Commerce
+2-Year accidental damage protection plan automatically added to cart,6,Sneak Into Basket,FTC Guidelines
+Premium gift packaging fee ₹150 was added to your bag,6,Sneak Into Basket,Princeton Study
+Carbon offset contribution ₹50 slipped into cart subtotal,6,Sneak Into Basket,Synthetic E-Commerce
+Express priority courier handling pre-inserted in checkout items,6,Sneak Into Basket,Princeton Study
+Complimentary sample converted to ₹99 item in your basket,6,Sneak Into Basket,FTC Guidelines
+Protection bundle insurance pre-added to your shopping bag,6,Sneak Into Basket,Synthetic E-Commerce
+Extended replacement guarantee was automatically included in order,6,Sneak Into Basket,Princeton Study
+Unsolicited charity donation ₹25 added to final checkout items,6,Sneak Into Basket,FTC Guidelines
+"Complimentary trial converts to automatic ₹1,499 monthly charge unless canceled 48h prior",7,Forced Continuity,FTC Guidelines
+Continuous subscription billed monthly. Cancellation requires calling our hotline during business hours,7,Forced Continuity,Princeton Study
+Free trial starts now. Renews automatically at ₹999/month with strict no-refund policy,7,Forced Continuity,FTC Guidelines
+"7-day trial automatically rolls into annual subscription of ₹4,999",7,Forced Continuity,Synthetic E-Commerce
+Membership auto-renews each billing cycle. Cancellation fee applies,7,Forced Continuity,Princeton Study
+"To cancel your continuous recurring billing, send certified postal mail to our office",7,Forced Continuity,FTC Guidelines
+Auto-billing enabled by default; cannot be disabled online once activated,7,Forced Continuity,Synthetic E-Commerce
+Recurring charges will continue indefinitely unless canceled by phone,7,Forced Continuity,Princeton Study
+Sponsored promotional partner recommendation styled exactly as genuine product search result,8,Disguised Advertisement,Princeton Study
+Promoted commercial listing disguised as organic editorial recommendation,8,Disguised Advertisement,FTC Guidelines
+Paid affiliate banner designed to look like site system notification,8,Disguised Advertisement,Princeton Study
+Advertisement disguised as a system download button or software update,8,Disguised Advertisement,FTC Guidelines
+Sponsored content masked as unbiased customer review testimonial,8,Disguised Advertisement,Synthetic E-Commerce
+Paid placement rendered without standard sponsored or ad disclaimer tag,8,Disguised Advertisement,Princeton Study
+Deceptive banner imitating authentic operating system dialog box,8,Disguised Advertisement,FTC Guidelines
+Fake navigation button leading directly to third-party ad affiliate network,8,Disguised Advertisement,Synthetic E-Commerce
+24 shoppers are currently viewing this item right now!,9,Social Proof Manipulation,Princeton Study
+"Over 1,200 people bought this in the past 10 minutes!",9,Social Proof Manipulation,Synthetic E-Commerce
+Someone in Mumbai just purchased this item 12 seconds ago!,9,Social Proof Manipulation,Princeton Study
+50 customers have this item in their basket right at this moment!,9,Social Proof Manipulation,FTC Guidelines
+A customer in Delhi just ordered 3 pieces of this exact item!,9,Social Proof Manipulation,Princeton Study
+98% of users bought the more expensive premium warranty bundle,9,Social Proof Manipulation,Synthetic E-Commerce
+Trending hot! 45 people are actively looking at this hotel room!,9,Social Proof Manipulation,Booking Deceptive Patterns
+High demand alert: 32 purchases completed in the last hour!,9,Social Proof Manipulation,Princeton Study
+Pre-checked checkbox: Sign me up for auto-renewing VIP club ₹499/mo,10,Preselected Option,FTC Guidelines
+Pre-selected: Include express priority delivery for extra ₹250,10,Preselected Option,Princeton Study
+Default opt-in checked: Add ₹199 equipment replacement insurance,10,Preselected Option,FTC Guidelines
+Pre-checked box for marketing newsletters and third party partner sharing,10,Preselected Option,Princeton Study
+Pre-selected monthly subscription plan instead of single purchase option,10,Preselected Option,FTC Guidelines
+Pre-ticked option to store and share billing details with affiliate partners,10,Preselected Option,Synthetic E-Commerce
+Default checked box: Add optional premium gift wrap ₹120,10,Preselected Option,Princeton Study
+Pre-selected donation of ₹50 automatically included on payment form,10,Preselected Option,FTC Guidelines
+"Strikethrough reference price ₹9,999 was never the genuine selling price",11,Misleading Information,FTC Guidelines
+"Originally ₹14,999 now ₹2,499 with fictitious artificial baseline anchor",11,Misleading Information,Princeton Study
+Best value badge placed on highest profit margin item rather than lowest price,11,Misleading Information,FTC Guidelines
+Misleading countdown timer resets to 10:00 every time page is refreshed,11,Misleading Information,Princeton Study
+Deceptive comparison chart misrepresenting competitor technical specifications,11,Misleading Information,FTC Guidelines
+Fake discount claim: Save 80% based on manufactured retail reference rate,11,Misleading Information,Princeton Study
+Bogus certified best-seller badge with no sales verification audit,11,Misleading Information,Synthetic E-Commerce
+Misleading free shipping claim that applies only above high hidden threshold,11,Misleading Information,FTC Guidelines

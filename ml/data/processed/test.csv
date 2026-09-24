@@ -1,0 +1,13 @@
+text,label,pattern_type,source
+Misleading free shipping claim that applies only above high hidden threshold,11,Misleading Information,FTC Guidelines
+Compatible with iOS and Android devices via Bluetooth 5.2.,0,Normal,Legitimate E-Commerce
+"To cancel your continuous recurring billing, send certified postal mail to our office",7,Forced Continuity,FTC Guidelines
+Uncheck to confirm you do not refuse our optional service fee,4,Trick Question,Princeton Study
+Pre-selected monthly subscription plan instead of single purchase option,10,Preselected Option,FTC Guidelines
+Premium gift packaging fee ₹150 was added to your bag,6,Sneak Into Basket,Princeton Study
+Stock alert: Just 4 units left in inventory!,2,Scarcity,Synthetic E-Commerce
+Convenience handling charge ₹199 excluded from display price,3,Hidden Cost,Princeton Study
+Bogus certified best-seller badge with no sales verification audit,11,Misleading Information,Synthetic E-Commerce
+"No, I don't care about my family's safety and well-being",5,Confirmshaming,FTC Guidelines
+Pre-checked checkbox: Sign me up for auto-renewing VIP club ₹499/mo,10,Preselected Option,FTC Guidelines
+Extended replacement guarantee was automatically included in order,6,Sneak Into Basket,Princeton Study

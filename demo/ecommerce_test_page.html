@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FastShop - Exclusive Flash Deals Store</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f3f4f6; margin: 0; padding: 20px; color: #1f2937; }
+    .container { max-width: 850px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); overflow: hidden; }
+    .header { background: #1e3a8a; color: white; padding: 20px 30px; display: flex; justify-content: space-between; align-items: center; }
+    .urgency-banner { background: #fee2e2; color: #991b1b; padding: 12px 30px; font-weight: bold; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f87171; }
+    .timer { font-size: 20px; font-family: monospace; background: #991b1b; color: white; padding: 4px 10px; border-radius: 6px; }
+    .content { padding: 30px; display: flex; gap: 30px; }
+    .product-img { width: 320px; height: 320px; background: #e5e7eb; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 40px; }
+    .product-details { flex: 1; }
+    .price-tag { font-size: 26px; font-weight: bold; color: #047857; margin: 10px 0; }
+    .strikethrough { text-decoration: line-through; color: #9ca3af; font-size: 16px; margin-left: 10px; }
+    .scarcity-box { background: #fef3c7; color: #92400e; padding: 10px 14px; border-radius: 6px; font-size: 14px; font-weight: bold; margin: 15px 0; }
+    .social-proof { color: #4b5563; font-size: 13px; margin: 8px 0; }
+    .addon-card { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px; margin: 15px 0; }
+    .addon-label { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 500; cursor: pointer; }
+    .hidden-fee-note { font-size: 12px; color: #b91c1c; margin: 10px 0; }
+    .btn-buy { background: #2563eb; color: white; border: none; padding: 14px 24px; font-size: 16px; font-weight: bold; border-radius: 8px; cursor: pointer; width: 100%; transition: background 0.2s; }
+    .btn-buy:hover { background: #1d4ed8; }
+    .confirmshame-link { display: block; text-align: center; margin-top: 10px; color: #6b7280; font-size: 12px; text-decoration: none; }
+    .confirmshame-link:hover { color: #374151; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>⚡ FastShop Prime Electronics</h2>
+      <span>Demo Store with E-Commerce Dark Patterns</span>
+    </div>
+
+    <!-- Pattern 1: Fake Urgency with Countdown Timer -->
+    <div class="urgency-banner" id="deal-countdown-banner">
+      <span>🔥 Hurry! Sale ends in:</span>
+      <span class="timer" id="countdown-timer">04:59</span>
+    </div>
+
+    <div class="content">
+      <div class="product-img">🎧</div>
+      <div class="product-details">
+        <h1>Pro Wireless Noise-Cancelling Headphones</h1>
+        <div class="price-tag">
+          ₹2,499 <span class="strikethrough">₹9,999</span>
+        </div>
+
+        <!-- Pattern 2: Scarcity -->
+        <div class="scarcity-box" id="stock-scarcity-alert">
+          ⚠️ Only 2 items left in stock - order soon!
+        </div>
+
+        <!-- Pattern 3: Social Proof Manipulation -->
+        <div class="social-proof">
+          👀 24 shoppers are currently viewing this item right now!
+        </div>
+
+        <!-- Pattern 4: Preselected Option & Sneak into basket -->
+        <div class="addon-card">
+          <label class="addon-label">
+            <input type="checkbox" id="auto-protection" checked>
+            <span>Pre-selected: Add 2-Year accidental damage protection plan for extra ₹299</span>
+          </label>
+        </div>
+
+        <!-- Pattern 5: Hidden Cost / Drip Pricing -->
+        <div class="hidden-fee-note">
+          * Mandatory order processing fee of ₹149 added at final checkout
+        </div>
+
+        <button class="btn-buy" id="btn-add-cart">Complete Order Now</button>
+
+        <!-- Pattern 6: Confirmshaming -->
+        <a href="#" class="confirmshame-link">
+          No thanks, I hate saving money and prefer paying full price
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Live ticking countdown timer for realistic testing
+    let sec = 299;
+    const timerEl = document.getElementById("countdown-timer");
+    setInterval(() => {
+      if (sec > 0) sec--;
+      const m = String(Math.floor(sec / 60)).padStart(2, '0');
+      const s = String(sec % 60).padStart(2, '0');
+      timerEl.innerText = m + ":" + s;
+    }, 1000);
+  </script>
+</body>
+</html>

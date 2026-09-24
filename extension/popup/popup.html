@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Pattern Detector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo-group">
+      <div class="logo-icon">🛡️</div>
+      <div>
+        <h1 class="title">Dark Pattern Detector</h1>
+        <p class="subtitle" id="site-hostname">Detecting...</p>
+      </div>
+    </div>
+    <span class="status-pill" id="backend-status">Checking API...</span>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" id="tab-scan">Current Scan</button>
+    <button class="tab-btn" id="tab-history">Scan History</button>
+  </div>
+
+  <div id="scan-view">
+    <div class="card risk-card">
+      <div class="risk-info">
+        <span class="card-label">RISK LEVEL</span>
+        <div class="risk-badge" id="risk-badge">READY</div>
+        <div class="score-display">
+          Score: <span id="risk-score">0</span> / 100
+        </div>
+      </div>
+      <div class="stat-box">
+        <span class="stat-number" id="pattern-count">0</span>
+        <span class="stat-label">Patterns Found</span>
+      </div>
+    </div>
+
+    <div class="section-title">DETECTIONS ON THIS PAGE</div>
+    <div class="detections-list" id="detections-list">
+      <div class="empty-state">No scan completed yet. Click "Scan Page" to inspect.</div>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-primary" id="btn-scan">🔍 Scan Page</button>
+      <button class="btn btn-secondary" id="btn-clear">🧹 Clear</button>
+    </div>
+  </div>
+
+  <div id="history-view" style="display: none;">
+    <div class="section-title">RECENT SCANS</div>
+    <div class="history-list" id="history-list">
+      <div class="empty-state">Loading history...</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>AI & Rule Hybrid Engine</span>
+    <a href="#" id="docs-link">API Docs</a>
+  </div>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

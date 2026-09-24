@@ -1,0 +1,13 @@
+text,label,pattern_type,source
+Your reserved discount expires in 01:59!,1,Fake Urgency,Princeton Study
+Low inventory warning: 2 units left!,2,Scarcity,FTC Guidelines
+Add to wishlist to save for later viewing.,0,Normal,Legitimate E-Commerce
+All prices are inclusive of applicable GST.,0,Normal,Legitimate E-Commerce
+Offer expires in 10 minutes. Complete order now!,1,Fake Urgency,FTC Guidelines
+Sponsored content masked as unbiased customer review testimonial,8,Disguised Advertisement,Synthetic E-Commerce
+"Dimensions: 15.6 inch display, weight: 1.8 kg.",0,Normal,Legitimate E-Commerce
+"7-day trial automatically rolls into annual subscription of ₹4,999",7,Forced Continuity,Synthetic E-Commerce
+Fake navigation button leading directly to third-party ad affiliate network,8,Disguised Advertisement,Synthetic E-Commerce
+Packaging and handling fee tacked onto final payment summary,3,Hidden Cost,Synthetic E-Commerce
+"Subtotal: ₹2,499. Taxes calculated at checkout according to local law.",0,Normal,Legitimate E-Commerce
+50 customers have this item in their basket right at this moment!,9,Social Proof Manipulation,FTC Guidelines

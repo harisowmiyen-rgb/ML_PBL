@@ -1,0 +1,135 @@
+﻿/* Dark Pattern Detector In-Page Highlights */
+.dpd-highlight-high {
+  outline: 3px dashed #e53e3e !important;
+  outline-offset: 3px !important;
+  position: relative !important;
+  transition: all 0.3s ease;
+  background-color: rgba(229, 62, 62, 0.06) !important;
+}
+
+.dpd-highlight-medium {
+  outline: 3px dashed #dd6b20 !important;
+  outline-offset: 3px !important;
+  position: relative !important;
+  transition: all 0.3s ease;
+  background-color: rgba(221, 107, 32, 0.06) !important;
+}
+
+.dpd-highlight-low {
+  outline: 2px dashed #d69e2e !important;
+  outline-offset: 2px !important;
+  position: relative !important;
+}
+
+.dpd-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  background: #1a202c !important;
+  color: #ffffff !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  padding: 3px 8px !important;
+  border-radius: 12px !important;
+  position: absolute !important;
+  top: -12px !important;
+  right: 6px !important;
+  z-index: 999999 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35) !important;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+.dpd-badge-high {
+  background: #c53030 !important;
+  border: 1px solid #feb2b2 !important;
+}
+
+.dpd-badge-medium {
+  background: #c05621 !important;
+  border: 1px solid #fbd38d !important;
+}
+
+.dpd-tooltip-modal {
+  position: absolute !important;
+  z-index: 1000000 !important;
+  background: #ffffff !important;
+  color: #2d3748 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid #e2e8f0 !important;
+  width: 320px !important;
+  padding: 14px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+}
+
+.dpd-tooltip-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 8px !important;
+  border-bottom: 1px solid #edf2f7 !important;
+  padding-bottom: 6px !important;
+}
+
+.dpd-tooltip-title {
+  font-weight: 800 !important;
+  font-size: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+.dpd-tooltip-title.high { color: #e53e3e !important; }
+.dpd-tooltip-title.medium { color: #dd6b20 !important; }
+
+.dpd-tooltip-close {
+  background: none !important;
+  border: none !important;
+  font-size: 18px !important;
+  cursor: pointer !important;
+  color: #718096 !important;
+}
+
+.dpd-tooltip-confidence {
+  font-size: 11px !important;
+  background: #edf2f7 !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  color: #4a5568 !important;
+}
+
+.dpd-tooltip-body {
+  margin-bottom: 10px !important;
+  color: #4a5568 !important;
+  font-size: 12px !important;
+}
+
+.dpd-tooltip-footer {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border-top: 1px solid #edf2f7 !important;
+  padding-top: 8px !important;
+  font-size: 11px !important;
+}
+
+.dpd-feedback-btn {
+  background: #edf2f7 !important;
+  border: 1px solid #cbd5e0 !important;
+  border-radius: 4px !important;
+  padding: 4px 8px !important;
+  font-size: 11px !important;
+  cursor: pointer !important;
+  transition: all 0.2s !important;
+}
+
+.dpd-feedback-btn:hover {
+  background: #e2e8f0 !important;
+}
